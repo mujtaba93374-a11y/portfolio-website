@@ -384,3 +384,37 @@ footer {
     align-items: center;
   }
 }
+/* Chat Section */
+.chat-container {
+  text-align: center;
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border-top: 1px solid red;
+}
+
+.chat-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #ff0000, #d40000);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out;
+}
+
+.chat-btn:hover {
+  background: linear-gradient(90deg, #d40000, #ff0000);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), 0 0 50px rgba(255, 0, 0, 0.6);
+  transform: scale(1.05);
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .chat-btn {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+}
